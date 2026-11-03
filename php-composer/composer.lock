@@ -1,0 +1,32 @@
+{
+  "_readme": [
+    "This is a minimal illustrative lock file for a Trivy test project."
+  ],
+  "content-hash": "demo-only-lock-file",
+  "packages": [
+    {
+      "name": "monolog/monolog",
+      "version": "3.9.0",
+      "type": "library",
+      "require": {
+        "php": ">=8.1"
+      },
+      "autoload": {
+        "psr-4": {
+          "Monolog\\\\": "src/Monolog"
+        }
+      }
+    }
+  ],
+  "packages-dev": [],
+  "aliases": [],
+  "minimum-stability": "stable",
+  "stability-flags": {},
+  "prefer-stable": true,
+  "prefer-lowest": false,
+  "platform": {
+    "php": ">=8.1"
+  },
+  "platform-dev": {},
+  "plugin-api-version": "2.6.0"
+}
