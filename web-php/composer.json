@@ -1,0 +1,11 @@
+{
+    "name": "demo/web-php",
+    "description": "Testovací PHP aplikace se zastaralými závislostmi pro ověření Trivy Web Scanneru",
+    "type": "project",
+    "license": "MIT",
+    "require": {
+        "php": ">=7.4",
+        "guzzlehttp/guzzle": "7.4.1",
+        "twig/twig": "3.4.2"
+    }
+}
